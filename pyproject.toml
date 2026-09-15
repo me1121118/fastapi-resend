@@ -1,0 +1,16 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fastapi-resend"
+version = "0.1.0"
+description = "Fast, modern transactional email sender for FastAPI powered by Resend."
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "me1121118" }]
+keywords = ["fastapi", "resend", "email", "transactional-email", "mailer"]
+dependencies = [
+    "fastapi>=0.100.0",
+    "httpx>=0.25.0",
+]
